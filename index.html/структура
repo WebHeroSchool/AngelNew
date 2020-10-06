@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+ <meta charset=”UTF-8”>
+
+ <title>HTML структура документа</title>
+
+ </head>
+
+ <body>
+ <header>
+ <h1>
+ Привет, давай знакомиться
+ </h1>
+
+ <nav>
+
+ <a>Menu</a>
+<a>Info page</a>
+<a>Shopping</a>
+<a>Contacts</a>
+
+</nav>
+
+</header>
+
+
+
+ <p>Учимся вместе с WebHeroSchool!</p>
+
+ </body>
+
+</html>
