@@ -61,7 +61,7 @@ p {
 .menu__item:hover {
   opacity: 0.5;
 }
-.menu__item_active::after {
+.menu__item_active:after {
   position: absolute;
   display: block;
   content: '';
@@ -72,6 +72,13 @@ p {
   opacity: 0;
   transition: opacity .5s;
 }
-.menu__item:hover, .menu__item_active::after {
+.menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
 }
