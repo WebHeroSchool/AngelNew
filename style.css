@@ -101,7 +101,12 @@ p {
   display: inline-block;
   color: #fff;
   background: #0056EC;
+  border-radius: 4px;
   text-decoration: none;
+  transition: opacity .5s;
+}
+.margin-bottom:hover {
+  opacity: .5;
 }
 .main__tital-text_highlight {
   background: #ecf3ff;
