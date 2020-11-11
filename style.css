@@ -17,7 +17,7 @@ p {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 220px;
 }
 .menu {
   display: flex;
@@ -28,8 +28,8 @@ p {
 }
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
+  padding: 30px 0;
+  padding-left: 40px;
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
 }
 .logo__circle {
@@ -83,21 +83,24 @@ p {
   background: #0056EC;
 }
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 63% 220px 0;
   background: top right no-repeat url(img/maingimg.svg);
 
 }
 .main__tital {
-  margin: 0 0 40px 0;
-  font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
+  font: bold 66px/85px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main__subtitel {
-  margin: 0 0 41px 0;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin: 0 0 44px 0;
+  width: 455px;
+  font: 21px/25px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 18px/30px Roboto, arial, helvetica, sans-serif;
   padding: 14px 16px;
+  width: 240px;
+  height: 28px;
   display: inline-block;
   color: #fff;
   background: #0056EC;
@@ -116,6 +119,18 @@ p {
 }
 #menu__toggle {
 opacity: 0;
+}
+@media (max-width: 1370px) {
+  .wrapper {
+    margin: auto;
+    width: 80%;
+  }
+  .header{
+    margin-bottom: 100px;
+  }
+  .logo{
+    padding-left: 120px;
+  }
 }
 @media (max-width: 768px) {
   .menu {
