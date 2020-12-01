@@ -148,13 +148,14 @@ opacity: 0;
   .wrapper {
   width: 90%;
 }
+}
 @media (max-width: 1370px) {
   .wrapper {
     margin: auto;
     width: 80%;
   }
   .header{
-    margin-bottom: 85px;
+    margin-bottom: 100px;
   }
   .menu {
     margin-top: 12px;
@@ -172,7 +173,7 @@ opacity: 0;
     margin-right: 26px;
   }
   .main {
-    padding: 0 930x 220px 0;
+    padding: 0 930px 220px 0;
     margin: 0 75px;
     background: top right no-repeat url(img/maingimg2.svg);
   }
@@ -189,15 +190,13 @@ opacity: 0;
     width: 367px;
     left: 218px;
     top: 447px;
-    font: 15px/20px Roboto, arial, helvetica, sans-serif;
+    font: 18px/25px Roboto, arial, helvetica, sans-serif;
     margin-bottom: 40px;
   }
-  .main__button {
-    height: 17px;
+  .main__button{
     width: 180px;
-    left: 235px;
-    top: 545px;
-    font: 15px/20px Roboto, arial, helvetica, sans-serif;
+    height: 20px;
+    font: 15px/25px Roboto, arial, helvetica, sans-serif;
   }
 }
 @media (max-width: 1300px) {
@@ -232,6 +231,16 @@ opacity: 0;
   }
   .main__tital {
     margin: 0px 0 40px 0;
+    font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main__subtitel {
+    font: 18px/20px Roboto, arial, helvetica, sans-serif;
+    margin-bottom: 35px;
+  }
+  .main__button {
+    width: 175px;
+    height: 15px;
+    font: 14px/15px Roboto, arial, helvetica, sans-serif;
   }
 }
 @media (max-width: 768px) {
@@ -286,7 +295,6 @@ opacity: 0;
    margin-left: 40px;
    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
  }
-
  #menu__toggle {
 opacity: 0;
 }
