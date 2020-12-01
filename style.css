@@ -100,7 +100,7 @@ margin-right: 0;
   padding: 14px 16px;
   width: 240px;
   height: 28px;
-  display: inline-block;
+  display: block;
   color: #fff;
   background: #0056EC;
   border-radius: 4px;
@@ -108,7 +108,7 @@ margin-right: 0;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   border: 2px solid #fff;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
@@ -294,6 +294,8 @@ opacity: 0;
  .main__button {
    margin-left: 40px;
    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+   z-index: -1;
+ }
  }
  #menu__toggle {
 opacity: 0;
