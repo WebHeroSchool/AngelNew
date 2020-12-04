@@ -262,7 +262,7 @@ opacity: 0;
  }
  .header {
    width: 40%;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
    margin-left: auto;
    margin-right: auto;
  }
@@ -287,9 +287,9 @@ opacity: 0;
  .main__subtitel {
    margin-bottom: 25px;
    text-align: center;
-   height: 57px;
+   height: 50px;
    width: 275px;
-   font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+   font: 500 17px/17px Roboto, arial, helvetica, sans-serif;
  }
  .main__button {
    margin-left: 40px;
@@ -342,7 +342,7 @@ opacity: 0;
 }
 .menu__item__box {
   display: block;
-  padding: 13px 24px;
+  padding: 13px 20px;
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
