@@ -115,7 +115,6 @@ margin-right: 0;
 .main__button:hover {
   color: #000 !important;
   background-color: transparent;
-  text-shadow: nthree;
 }
 .main__button:hover:before {
   left: 0%;
@@ -278,21 +277,22 @@ opacity: 0;
    height: 96px;
     width: 267px;
     top: 400px;
-    margin-top: 40px;
+    margin-top: 45px;
     margin-left: 10px;
     margin-bottom: 55px;
     text-align: center;
    font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
  }
  .main__subtitel {
-   margin-bottom: 25px;
+   margin-bottom: 30px;
+   margin-left: 10px;
    text-align: center;
    height: 50px;
    width: 275px;
-   font: 500 17px/17px Roboto, arial, helvetica, sans-serif;
+   font: 500 17px/19px Roboto, arial, helvetica, sans-serif;
  }
  .main__button {
-   margin-left: 40px;
+   margin-left: 35px;
    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
    z-index: -1;
  }
@@ -303,8 +303,8 @@ opacity: 0;
    position: absolute;
    width: 25px;
    height: 3px;
-   left: 326px;
-   top: 46px;
+   left: 500px;
+   top: 40px;
    cursor: pointer;
    z-index: 1;
   }
@@ -377,5 +377,15 @@ opacity: 0;
 }
 .menu__item__box {
   transition-duration: .25s;
+  }
 }
+@media (max-width: 550px) {
+  .menu__btn {
+    left: 350px;
+  }
+}
+@media (max-width: 377px) {
+.menu__btn {
+  left: 325px;
+   }
 }
